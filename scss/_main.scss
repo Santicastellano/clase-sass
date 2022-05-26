@@ -1,0 +1,41 @@
+/*aca va el codigo de scss*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*servicios*/
+.colorBody{
+    background-color: $colorBody;
+}
+.contraste{
+    background-color: $color-contraste;
+    border-radius: 50%;
+}
+
+.subTitulo{
+    font-weight: 400 ;
+}
+.tamanoImagen{
+    width: 407px;
+    height: 601px;
+}
+.colorServicios{
+    h4{
+        color: blanchedalmond;
+        font-size: 2.5rem;
+
+        @media screen and(min-width: 768px){
+            font-size: 2rem;
+        }
+    }
+
+    p{
+        color: $color-cajaDeParrafo;
+        font-size: 1.5rem;
+
+        @media screen and(min-width: 768px){
+            font-size: 1rem;
+        }
+    }
+}
